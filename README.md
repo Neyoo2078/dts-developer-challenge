@@ -14,23 +14,42 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Task Manager
+📌 Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+A simple Task Management application built with Next.js using Server Components and Server Actions for backend logic.
+Prisma ORM is used to interact with a Supabase PostgreSQL database.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🛠 Tech Stack
 
-## Learn More
+Next.js (App Router)
+Server Components & Server Actions
+Prisma ORM
+Supabase PostgreSQL
+TypeScript
+Radix-u UI
+Git & GitHub
 
-To learn more about Next.js, take a look at the following resources:
+📡 Server Actions
+| Method | Description |
+| ---------------- | ----------------------- |
+| createTask | Create a new task |
+| getTasks | Retrieve all tasks |
+| getTaskById | Retrieve task by ID |
+| updateTaskStatus | Update task status only |
+| deleteTask | Delete task |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+API (Logical Endpoints)
+Handled internally using Server Actions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Create Task
+Get All Tasks
+Get Task By ID
+Update Task Status
+Delete Task
 
-## Deploy on Vercel
+👨‍💻 Author
+Adeniyi Olatunji
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📜 License
+MIT License
